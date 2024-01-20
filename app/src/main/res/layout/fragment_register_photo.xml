@@ -54,8 +54,18 @@
             <co.tiagoaguiar.course.instagram.login.view.LoadingButton
                 android:id="@+id/register_btn_next"
                 android:layout_height="wrap_content"
-                app:text="@string/next"
+                app:text="@string/add_photo"
                 android:layout_width="match_parent" />
+
+
+            <Button
+                android:id="@+id/register_btn_jump"
+                android:text="@string/jump"
+                style="@style/Theme.Instagram.Link"/>
+
+
+
+
 
 
 
