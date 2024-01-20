@@ -11,8 +11,8 @@
         android:id="@+id/register_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="co.tiagoaguiar.course.instagram.register.view.RegisterWelcomeFragment"
-        tools:layout="@layout/fragment_register_welcome"/>
+        android:name="co.tiagoaguiar.course.instagram.register.view.RegisterPhotoFragment"
+        tools:layout="@layout/fragment_register_photo"/>
 
 
 </LinearLayout>
