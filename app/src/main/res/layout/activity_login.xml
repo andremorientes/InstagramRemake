@@ -65,6 +65,11 @@
             app:text="@string/enter"
             android:layout_width="match_parent" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Theme.Instagram.TextViewBase"
+            android:text="@string/forgot_account"/>
 
 
 
@@ -86,6 +91,13 @@
                 android:padding="8dp"
                 android:text="OU" />
         </FrameLayout>
+
+        <co.tiagoaguiar.course.instagram.login.view.LoadingButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:text="Facebook"
+            android:textAllCaps="false"
+            />
 
     </LinearLayout>
     </ScrollView>
