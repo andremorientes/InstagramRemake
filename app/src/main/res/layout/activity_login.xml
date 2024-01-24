@@ -92,11 +92,16 @@
                 android:text="OU" />
         </FrameLayout>
 
-        <co.tiagoaguiar.course.instagram.login.view.LoadingButton
+        <Button
+            android:id="@+id/login_btn_facebook"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:text="Facebook"
+            android:text="Facebook"
+            android:backgroundTint="@color/blue_enabled"
             android:textAllCaps="false"
+            android:layout_margin="32dp"
+            android:padding="13dp"
+            app:icon="@drawable/ic_insta_profile"
             />
 
     </LinearLayout>
