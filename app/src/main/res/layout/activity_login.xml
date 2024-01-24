@@ -101,7 +101,7 @@
             android:textAllCaps="false"
             android:layout_margin="32dp"
             android:padding="13dp"
-            app:icon="@drawable/ic_insta_profile"
+
             />
 
     </LinearLayout>
