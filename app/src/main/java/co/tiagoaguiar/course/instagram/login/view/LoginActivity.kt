@@ -18,6 +18,7 @@ import co.tiagoaguiar.course.instagram.login.data.FakeDataSource
 import co.tiagoaguiar.course.instagram.login.data.LoginRepository
 import co.tiagoaguiar.course.instagram.login.presentation.LoginPresenter
 import co.tiagoaguiar.course.instagram.main.view.MainActivity
+import co.tiagoaguiar.course.instagram.register.view.RegisterActivity
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 
@@ -52,6 +53,10 @@ class LoginActivity : AppCompatActivity(), Login.View {
 
 
     }
+
+      loginTxtRegister.setOnClickListener {
+          goToRegisterScreen()
+      }
 }
 
   }
@@ -65,6 +70,11 @@ class LoginActivity : AppCompatActivity(), Login.View {
   binding.loginBtnEnter.isEnabled=binding.loginEditEmail.text.toString().isNotEmpty()
           && binding.loginEditPassword.text.toString().isNotEmpty()
   }
+
+
+    private fun goToRegisterScreen(){
+        startActivity(Intent(this, RegisterActivity::class.java))
+    }
 
     override fun showProgress(enabled: Boolean) {
        binding. loginBtnEnter.showProgress(enabled)
