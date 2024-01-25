@@ -93,16 +93,13 @@
         </FrameLayout>
 
         <Button
-            android:id="@+id/login_btn_facebook"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Facebook"
-            android:backgroundTint="@color/blue_enabled"
             android:textAllCaps="false"
-            android:layout_margin="32dp"
-            android:padding="13dp"
-
-            />
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue_enabled"
+            android:layout_margin="32dp"/>
 
     </LinearLayout>
     </ScrollView>
