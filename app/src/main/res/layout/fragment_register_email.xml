@@ -44,7 +44,7 @@
                     android:id="@+id/register_edit_email"
                     style="@style/Theme.Instagram.FormEditText"
                     android:autofillHints="@null"
-                    android:hint="@string/email"
+                    android:hint="Email"
                     android:inputType="textEmailAddress" />
             </com.google.android.material.textfield.TextInputLayout>
 
