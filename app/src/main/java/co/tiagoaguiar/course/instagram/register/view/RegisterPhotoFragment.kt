@@ -98,7 +98,7 @@ class RegisterPhotoFragment : Fragment(R.layout.fragment_register_photo){
         val openGallery: LinearLayout = dialog.findViewById(R.id.open_gallery)
 
         openCamera.setOnClickListener {
-
+            fragmentAttachListener?.goToCameraScreen()
         }
 
         openGallery.setOnClickListener {

@@ -7,4 +7,5 @@ interface FragmentAttachListener {
     fun goToPhotoScreen()
     fun goToMainScreen()
     fun goToGalleryScreen()
+    fun goToCameraScreen()
 }

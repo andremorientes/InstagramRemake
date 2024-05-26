@@ -44,7 +44,7 @@ class CropperImageFragment: Fragment(R.layout.fragment_image_cropper) {
                 cropperBtnSave.setOnClickListener {
                     val dir= context?.getExternalFilesDir(Environment.DIRECTORY_PICTURES)
                     if (dir!= null){
-                        val uriToSaved= Uri.fromFile(File(dir.path, System.currentTimeMillis().toString()+ ".jpeg"))
+                        val uriToSaved= Uri.fromFile(File(dir.path, System.currentTimeMillis().toString()+ ".jpg"))
                         cropperContainer.saveCroppedImageAsync(uriToSaved)
                     }
                 }
